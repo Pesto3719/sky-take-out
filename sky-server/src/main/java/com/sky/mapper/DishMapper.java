@@ -67,6 +67,13 @@ public interface DishMapper {
      * 根据主键修改菜品信息
      * @param dish
      */
-    @AutoFill(value = OperationType.INSERT)
+    @AutoFill(value = OperationType.UPDATE)
     void update(Dish dish);
+
+    /**
+     * 动态条件查询菜品
+     * @param dish
+     * @return
+     */
+    List<Dish> list(Dish dish);
 }
