@@ -117,6 +117,12 @@ public class DishController {
         return Result.success(list);
     }
 
+    /**
+     * 菜品的起售和停售
+     * @param status
+     * @param id
+     * @return
+     */
     @PostMapping("status/{status}")
     @ApiOperation("菜品的起售和停售")
     public Result<String> startOrStop(@PathVariable Integer status,Long id){
