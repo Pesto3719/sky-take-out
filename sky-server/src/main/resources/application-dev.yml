@@ -22,3 +22,9 @@ sky:
   wechat:
     appid: wxab879cf1cd4eb404
     secret: 09cef5cbdc2ebf2462f74c497e0056de
+
+  shop:
+    address: 宜宾市翠屏区沙坪街道
+
+  baidu:
+    ak: vGHtxxyC39kHu2wqBmfS4Km6boXHPNYH
